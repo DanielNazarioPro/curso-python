@@ -24,24 +24,19 @@ curso-python/
 │   README.md
 │
 └───fase-1/                          ← Fundamentos de Python
-    │
-    ├───exercicio/                   ← Exercícios práticos por conta própria
-    │       exercicio001.py
-    │       exercicio002.py
-    │
-    └───modulo-01/                   ← Aulas organizadas por tema
-        │
-        ├───variaveis/
-        │       aula001.py
-        │       aula002.py
-        │       aula003.py
-        │       aula004.py
-        │       aula005.py
-        │
-        ├───tipos/
-        │       aula001.py
-        │
-        └───operadores/
+    ├───modulo-01/│
+     ├───exercicio/                   ← Exercícios práticos por conta própria
+     │       exercicio001.py
+     │       exercicio002.py
+     │
+     └───aulas/                   ← Aulas organizadas por tema 
+     │       001-print.py
+     │       001_tipos-de-Dados.py
+     │       002-Operacoes-Matematicas.py
+     │       003-type.py
+     │       004-texto-e-operacao.py
+     └───────005-variaveis.py
+
 ```
 
 ---
