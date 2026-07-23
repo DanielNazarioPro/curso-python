@@ -1,4 +1,4 @@
-# curso-python 
+# curso-python 🐍
 
 Repositório de estudos práticos em Python, organizado por fases progressivas.  
 Criado como parte da minha preparação para o estágio em **QA e Automação de Testes**.
@@ -21,17 +21,27 @@ O objetivo não é só aprender — é registrar o processo de aprendizado de fo
 
 ```
 curso-python/
+│   README.md
 │
-├── fase-1/                          ← Fundamentos de Python
-│   ├── 01_variaveis_tipos_operadores.py
-│   ├── 02_condicionais_loops.py
-│   ├── 03_funcoes_escopo.py
-│   ├── 04_listas_dicionarios_tuplas.py
-│   └── 05_leitura_escrita_arquivos.py
-│
-├── fase-2/                          ← Em breve: QA e pytest
-├── fase-3/                          ← Em breve: Automação de testes
-└── fase-4/                          ← Em breve: OpenCV e computação visual
+└───fase-1/                          ← Fundamentos de Python
+    │
+    ├───exercicio/                   ← Exercícios práticos por conta própria
+    │       exercicio001.py
+    │       exercicio002.py
+    │
+    └───modulo-01/                   ← Aulas organizadas por tema
+        │
+        ├───variaveis/
+        │       aula001.py
+        │       aula002.py
+        │       aula003.py
+        │       aula004.py
+        │       aula005.py
+        │
+        ├───tipos/
+        │       aula001.py
+        │
+        └───operadores/
 ```
 
 ---
@@ -67,12 +77,12 @@ Desafio     — problema que integra os conceitos do módulo
 git clone https://github.com/DanielNazarioPro/curso-python.git
 cd curso-python
 
-# Execute qualquer módulo da fase 1
-python fase-1/01_variaveis_tipos_operadores.py
-python fase-1/02_condicionais_loops.py
-python fase-1/03_funcoes_escopo.py
-python fase-1/04_listas_dicionarios_tuplas.py
-python fase-1/05_leitura_escrita_arquivos.py
+# Execute uma aula
+python fase-1/modulo-01/variaveis/aula001.py
+python fase-1/modulo-01/tipos/aula001.py
+
+# Execute um exercício
+python fase-1/exercicio/exercicio001.py
 ```
 
 > Os módulos 03, 04 e 05 não precisam de bibliotecas externas — apenas Python padrão.  

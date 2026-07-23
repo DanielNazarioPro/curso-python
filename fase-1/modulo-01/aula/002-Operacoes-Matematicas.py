@@ -41,5 +41,3 @@ print (10 + 5 * 2) # A multiplicação tem prioridade sobre a adição
 print((10 + 5) * 2) # O uso de parênteses altera a prioridade das operações
 
 print (10 / 3) # O resultado é um número decimal (float)
-
-

@@ -3,7 +3,6 @@
 print("Python")
 print('Meu nome é Daniel')
 
-
 print(type("Python")) # str
 print(type("500")) # str
 print(type(500)) # int
