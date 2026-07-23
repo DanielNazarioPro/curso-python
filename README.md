@@ -73,11 +73,11 @@ git clone https://github.com/DanielNazarioPro/curso-python.git
 cd curso-python
 
 # Execute uma aula
-python fase-1/modulo-01/variaveis/aula001.py
-python fase-1/modulo-01/tipos/aula001.py
+python fase-1/modulo-01/aulas/aula001_tipo-de-dados.py
+python fase-1/modulo-01/aulas/aula002_operacoes-matematicas.py
 
 # Execute um exercício
-python fase-1/exercicio/exercicio001.py
+python fase-1/exercicios/exercicio001.py
 ```
 
 > Os módulos 03, 04 e 05 não precisam de bibliotecas externas — apenas Python padrão.  
