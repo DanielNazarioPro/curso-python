@@ -7,8 +7,8 @@
 5- Removendo espaços em Python: rstrip(), lstrip() e strip()
 6- Quando usar as aspas simples e aspas duplas.
 """
-"""
-nome = 'daniel nazario
+
+nome = 'daniel nazario'
 print(nome.title())
 print(nome.upper())
 print(nome.lower())
@@ -30,7 +30,7 @@ print(nome.lstrip() + obs)
 print(obs + nome.lstrip() + obs)
 # metodo stripe() (-> apaga todos os campos em branco.)
 print(nome.strip() + obs)
-print(obs + nome.strip() + obs)"""
+print(obs + nome.strip() + obs)
 
 
 frase = "Eu vou para John's bar"
