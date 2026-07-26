@@ -3,7 +3,6 @@
 # Método append(), Método insert(), Método pop(), Método remove()
 # Organizando Listas sort(), sorted(), len() - length
 
-"""
 user_ativos = ['joao', 'antonio', 'filipe', 'igor']
 
 for user in user_ativos:
@@ -44,7 +43,7 @@ num = []
 for x in range(1, 101):
     num.append(x) # type: ignore
 
-print(num) # type: ignore"""
+print(num) # type: ignore
 
 quadrado = [valor ** 2 for valor in range(1, 21)]
 
